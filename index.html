@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Info page</title>
+  </head>
+
+  <body>
+    <div class="section">
+      <div class="conatainer">
+        <div class="section-inner">
+          <h1 class="info-page">Info-Page</h1>
+        </div>
+      </div>
+    </div>
+    <section class="section coordinates">
+      <div class="conatainer">
+        <div class="section-inner">
+          <h2 class="header">Coordinates</h2>
+          <div class="text">
+            <p id="lat"></p>
+            <p id="lng"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section city">
+      <div class="container">
+        <div class="section-inner">
+          <h2 class="header">Country & city</h2>
+          <div class="text">
+            <p id="country"></p>
+            <p id="city"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section weather">
+      <div class="container">
+        <div class="section-inner">
+          <h2 class="header">Current Weather</h2>
+          <div class="text">
+            <p id="sky"></p>
+            <p id="cur_tmp"></p>
+            <p id="min_tmp"></p>
+            <p id="max_tmp"></p>
+            <p id="pressure"></p>
+            <p id="wind"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section currency">
+      <div class="container">
+        <div class="section-inner">
+          <h2 class="header">Currency</h2>
+          <p id="currency"></p>
+          <p id="rate"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section news">
+      <div class="container">
+        <div class="section-inner">
+          <h2 class="header">Last News</h2>
+          <div id="news"></div>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
+
+</html>
