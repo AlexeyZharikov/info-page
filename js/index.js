@@ -1,5 +1,6 @@
-// import 'regenerator-runtime/runtime';
+import 'regenerator-runtime/runtime';
 import axios from 'axios';
+
 
 
 require('dotenv').config({
